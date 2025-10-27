@@ -19,10 +19,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chiragtechuz/laravel-api-client"
+        }
+    ],
     "require": {
         "php": "^8.0|^8.1",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
-        "macsidigital/laravel-api-client": "^5.0"
+        "macsidigital/laravel-api-client": "dev-master"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16|^3.14",
